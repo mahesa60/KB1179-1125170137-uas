@@ -6,18 +6,18 @@ class MySplashScreen1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-            appBar: AppBar(
-              title: const Text("Dashboard"),
-              actions: const [],
-            ),
-            body: SingleChildScrollView(
-              child: Container(
-                padding: const EdgeInsets.all(20.0),
-                child: const Column(
-                  children: [],
-                ),
-              ),
-            ),
+            body: Column(
+                          children: [
+                            SizedBox(height: 50),
+                            Container(
+                              width: 250,
+                              height: 250,
+                              decoration: BoxDecoration(
+                                shape: BoxShape.circle,
+                                color: Colors.deepPurple),
+                              ),
+                          ],
+                        ),
           );;
   }
 }
