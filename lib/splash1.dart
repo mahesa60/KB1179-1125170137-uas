@@ -19,6 +19,13 @@ class MySplashScreen1 extends StatelessWidget {
                       image: AssetImage("assets/images/D1.png")),
                     color: Colors.deepPurple),
                     ),
+                    SizedBox(height: 20),
+                    Text("Welcome",
+                      style: TextStyle(
+                        fontSize: 25.0,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
                   ],
                 ),
             ),
