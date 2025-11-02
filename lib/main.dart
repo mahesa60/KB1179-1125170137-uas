@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:projek_uas/splash1.dart';
 
 void main() {
   runApp(MyApp());
