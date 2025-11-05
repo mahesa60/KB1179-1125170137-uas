@@ -77,6 +77,70 @@ class Login extends StatelessWidget {
                       ),
                     ),
                   ),
+                  SizedBox(height: 5),
+                  Align(
+                    alignment: Alignment.centerRight,
+                    child: TextButton(onPressed: () {},
+                    child: Text("Lupa Password",
+                    style: TextStyle(
+                      fontSize: 14.0,
+                      color: Colors.deepPurple,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),),
+                  ),
+                  Container(
+              margin: EdgeInsets.only(left: 40, right: 40),
+              child: SizedBox(
+                width: double.infinity,
+                height: 40,
+                child: ElevatedButton(
+                  onPressed: () {
+                    
+                  },
+                  style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.deepPurple),
+                  child: Text(
+                    "Login",
+                    style: TextStyle(
+                      fontSize: 20.0,
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+              ),
+            ),  
+            SizedBox(height: 10),
+            Container(
+              margin: EdgeInsets.only(left: 40, right: 40),
+              child: Row(
+                            children: [
+                              Expanded(child: Divider(color: Colors.deepPurple)),
+                              SizedBox(width: 5),
+                              Text("Atau",
+                                style: TextStyle(
+                                  fontSize: 12.0,
+                                ),
+                              ),
+                              SizedBox(width: 5),
+                              Expanded(child: Divider(color: Colors.deepPurple)),
+                            ],
+                          ),
+            ),
+            SizedBox(height: 10),
+            OutlinedButton.icon(onPressed: () {},
+            icon: Icon(Icons.g_mobiledata, color: Colors.grey[800]),
+            label: Text("Login dengan Google",
+              style: TextStyle(
+                fontSize: 16.0,
+              ),
+            ),
+            style: OutlinedButton.styleFrom(
+              padding: EdgeInsets.symmetric(horizontal: 70),
+              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
+              side: BorderSide(color: Colors.grey[300]!)),
+            )
                 ],
               ),
             )

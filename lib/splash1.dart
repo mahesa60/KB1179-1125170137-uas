@@ -86,7 +86,7 @@ class MySplashScreen1 extends StatelessWidget {
                   ),
                 ),
               ),
-            )
+            ),
           ],
         ),
       ),
