@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:projek_uas/login.dart';
 import 'package:projek_uas/splash1.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: MySplashScreen1(),
+      home: Login(),
     );
   }
 }
