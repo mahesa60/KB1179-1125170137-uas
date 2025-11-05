@@ -52,6 +52,31 @@ class Login extends StatelessWidget {
                       ),
                     ),
                   ),
+                  SizedBox(height: 15),
+                  Container(
+                    margin: EdgeInsets.only(left: 40, right: 40),
+                    child: TextField(
+                      obscureText: true,
+                      decoration: InputDecoration(
+                        labelText: "Password",
+                        hintText: "Masukan Password Anda",
+                        prefixIcon: Icon(Icons.lock_outline_rounded),
+                        suffixIcon: Icon(Icons.visibility_outlined),
+                        border: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(10),
+                        ),
+                        enabledBorder: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(10),
+                          borderSide: BorderSide(color: Colors.deepPurple),
+                        ),
+                        focusedBorder: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(10),
+                          borderSide: BorderSide(color: Colors.deepPurple,
+                          width: 2),
+                        ),
+                      ),
+                    ),
+                  ),
                 ],
               ),
             )
