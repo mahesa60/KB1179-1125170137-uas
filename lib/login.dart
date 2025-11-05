@@ -140,7 +140,30 @@ class Login extends StatelessWidget {
               padding: EdgeInsets.symmetric(horizontal: 70),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
               side: BorderSide(color: Colors.grey[300]!)),
-            )
+            ),
+            SizedBox(height: 20),
+            Container(
+              child: Center(
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Text("Belum Punya Akun?",
+                                  style: TextStyle(
+                                    fontSize: 12.0,
+                                    color: Colors.grey
+                                  ),
+                                ),
+                                SizedBox(width: 5),
+                                Text("Daftar",
+                                  style: TextStyle(
+                                    fontSize: 12.0,
+                                    color: Colors.deepPurple
+                                  ),
+                                ),
+                              ],
+                            ),
+              ),
+            ),
                 ],
               ),
             )
