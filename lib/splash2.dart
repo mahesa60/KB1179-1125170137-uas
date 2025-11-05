@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:projek_uas/splash3.dart';
 
 class MySplashScreen2 extends StatelessWidget {
   const MySplashScreen2({super.key});
@@ -16,7 +17,7 @@ class MySplashScreen2 extends StatelessWidget {
                     decoration: BoxDecoration(
                     shape: BoxShape.circle,
                     image: DecorationImage(
-                      image: AssetImage("assets/images/D1.png")),
+                      image: AssetImage("assets/images/D2.png")),
                     color: Colors.deepPurple),
                     ),
                     SizedBox(height: 20),
@@ -40,7 +41,7 @@ class MySplashScreen2 extends StatelessWidget {
                           height: 10,
                           width: 10,
                           decoration: BoxDecoration(
-                            color: Colors.deepPurple,  
+                            color: Colors.deepPurple[100]!,  
                             shape: BoxShape.circle),
                         ),
                         SizedBox(width: 10),
@@ -48,7 +49,7 @@ class MySplashScreen2 extends StatelessWidget {
                           height: 10,
                           width: 10,
                           decoration: BoxDecoration(
-                            color: Colors.deepPurple[100]!,  
+                            color: Colors.deepPurple,  
                             shape: BoxShape.circle),
                         ),
                         SizedBox(width: 10),
@@ -68,7 +69,12 @@ class MySplashScreen2 extends StatelessWidget {
                                     width: double.infinity,
                                     height: 40,
                                     child: ElevatedButton(
-                                      onPressed: () {}, 
+                                      onPressed: () {
+                                        Navigator.push(
+                                          context,
+                                          MaterialPageRoute(
+                                          builder: (context) => MySplashScreen3()));
+                                      }, 
                                   
                                       style: ElevatedButton.styleFrom(backgroundColor: Colors.deepPurple),
                                       child: Text("Selanjutnya",

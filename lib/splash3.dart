@@ -16,7 +16,7 @@ class MySplashScreen3 extends StatelessWidget {
                     decoration: BoxDecoration(
                     shape: BoxShape.circle,
                     image: DecorationImage(
-                      image: AssetImage("assets/images/D1.png")),
+                      image: AssetImage("assets/images/D3.png")),
                     color: Colors.deepPurple),
                     ),
                     SizedBox(height: 20),
@@ -40,23 +40,23 @@ class MySplashScreen3 extends StatelessWidget {
                           height: 10,
                           width: 10,
                           decoration: BoxDecoration(
+                            color: Colors.deepPurple[100]!,  
+                            shape: BoxShape.circle),
+                        ),
+                        SizedBox(width: 10),
+                        Container(
+                          height: 10,
+                          width: 10,
+                          decoration: BoxDecoration(
+                            color: Colors.deepPurple[100]!,  
+                            shape: BoxShape.circle),
+                        ),
+                        SizedBox(width: 10),
+                        Container(
+                          height: 10,
+                          width: 10,
+                          decoration: BoxDecoration(
                             color: Colors.deepPurple,  
-                            shape: BoxShape.circle),
-                        ),
-                        SizedBox(width: 10),
-                        Container(
-                          height: 10,
-                          width: 10,
-                          decoration: BoxDecoration(
-                            color: Colors.deepPurple[100]!,  
-                            shape: BoxShape.circle),
-                        ),
-                        SizedBox(width: 10),
-                        Container(
-                          height: 10,
-                          width: 10,
-                          decoration: BoxDecoration(
-                            color: Colors.deepPurple[100]!,  
                             shape: BoxShape.circle),
                         )
                                   ],
