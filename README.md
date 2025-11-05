@@ -2,6 +2,28 @@
 
 A new Flutter project.
 
+## Identitas
+**Nama:** Mahesha Suro
+**NIM:** 1125170137
+
+## Hasil Screenshot
+![Tampilan Screen Pertama](assets/screenshot/screen1.png)
+![Tampilan Screen Kedua](assets/screenshot/screen2.png)
+![Tampilan Screen Ketiga](assets/screenshot/screen3.png)
+![Tampilan Login](assets/screenshot/screen-login.png)
+![Tampilan Email 1](assets/screenshot/screen-email1.png)
+![Tampilan Email 2](assets/screenshot/screen-email2.png)
+![Tampilan Password 1](assets/screenshot/screen-pass1.png)
+![Tampilan Password 2](assets/screenshot/screen-pass1.png)
+
+## Cara Menjalankan Project
+1. **Clone repository dari GitHub**
+   ```bash
+   git clone https://github.com/mahesa60/KB1179-1125170137-uas
+2. cd projek_uas
+3. flutter pub get
+4. flutter run
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
